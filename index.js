@@ -1,15 +1,18 @@
 const express = require('express');
 const app = express();
-const dotenv = require('dotenv')
+
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+}
 
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./swagger');
 const { logReqRes } = require("./middleware");
 const { connectMongoDb } = require("./connection");
 const userRouter = require("./routes/user");
-const productRoutes = require("./routes/productRoutes")
-require('dotenv').config();
-const PORT = process.env.PORT || 3000; 
+const productRoutes = require("./routes/productRoutes");
+
+const PORT = process.env.PORT || 3000;
 const MONGO_URI = process.env.MONGO_URI
 connectMongoDb(process.env.MONGO_URI)
     .then(() => console.log("mongodb connected"));
