@@ -13,6 +13,10 @@ const swaggerOptions = {
     },
     servers: [
       {
+        url: 'https://fitmatters-backend.onrender.com',
+        description: 'Production Server (Render)',
+      },
+      {
         url: `http://localhost:${PORT}`,
         description: 'Live Production Server',
       },
