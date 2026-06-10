@@ -1,1 +1,2 @@
 cmd  to seed the mongo : node seed.js s ./products_dataset_kebab_case.json
+

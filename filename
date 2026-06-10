@@ -1200,3 +1200,23 @@
 1781006496380:::1 GET: /user
 
 1781006509068:::1 GET: /products
+
+1781068951352:::1 GET: /
+
+1781068965161:::1 GET: /products
+
+1781068965550:::1 GET: /favicon.ico
+
+1781072823469:::1 GET: /api-docs/
+
+1781072830297:::1 GET: /api-docs/swagger-ui.css
+
+1781072830299:::1 GET: /api-docs/swagger-ui-bundle.js
+
+1781072830300:::1 GET: /api-docs/swagger-ui-standalone-preset.js
+
+1781072830301:::1 GET: /api-docs/swagger-ui-init.js
+
+1781072877881:::1 GET: /user
+
+1781073171262:::1 GET: /user

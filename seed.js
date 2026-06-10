@@ -27,8 +27,7 @@ const executeMigration = async (filePath) => {
             throw new Error('Target JSON file does not contain a valid array of products.');
         }
 
-        const connectionString = process.env.MONGO_URI || 'mongodb+srv://alokinfilon_db_user:iS9gfewUJ4JlfL0x@cluster0.qtrdtnn.mongodb.net/?appName=Cluster0';
-        await mongoose.connect(connectionString);
+        const connectionString = process.env.MONGO_URI ;
         console.info('Connected to MongoDB database cluster.');
 
         await Product.deleteMany({});
