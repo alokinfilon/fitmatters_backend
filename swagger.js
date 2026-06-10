@@ -18,12 +18,12 @@ const swaggerOptions = {
       },
       {
         url: `http://localhost:${PORT}`,
-        description: 'Live Production Server',
+        description: 'LocalHost Server',
       },
     ],
   },
   apis: [path.resolve(__dirname, './routes/user.js'),
-    path.resolve(__dirname, './routes/productRoutes.js')
+    path.resolve(__dirname, './controllers/productController.js')
   ],  
 };
 
