@@ -288,3 +288,99 @@
 1781169912214:::1 POST: /cart/addItem
 
 1781169919409:::1 GET: /cart/getCartItem
+
+1781170240754:::1 GET: /api-docs/
+
+1781170240792:::1 GET: /api-docs/swagger-ui.css
+
+1781170240794:::1 GET: /api-docs/swagger-ui-bundle.js
+
+1781170240795:::1 GET: /api-docs/swagger-ui-standalone-preset.js
+
+1781170240795:::1 GET: /api-docs/swagger-ui-init.js
+
+1781170240964:::1 GET: /api-docs/swagger-ui.css
+
+1781170277148:::1 GET: /api-docs/
+
+1781170277169:::1 GET: /api-docs/swagger-ui.css
+
+1781170277173:::1 GET: /api-docs/swagger-ui-bundle.js
+
+1781170277173:::1 GET: /api-docs/swagger-ui-standalone-preset.js
+
+1781170277174:::1 GET: /api-docs/swagger-ui-init.js
+
+1781170277231:::1 GET: /api-docs/swagger-ui.css
+
+1781170311615:::1 GET: /api-docs/
+
+1781170313249:::1 GET: /api-docs/swagger-ui.css
+
+1781170313251:::1 GET: /api-docs/swagger-ui-standalone-preset.js
+
+1781170313250:::1 GET: /api-docs/swagger-ui-bundle.js
+
+1781170313268:::1 GET: /api-docs/swagger-ui-init.js
+
+1781170709769:::1 GET: /api/products/18
+
+1781170709840:::1 GET: /favicon.ico
+
+1781170720309:::1 GET: /products/18
+
+1781170731162:::1 GET: /auth
+
+1781171740332:::1 POST: /cart/addItem
+
+1781171758733:::1 POST: /cart/addItem
+
+1781171785420:::1 POST: /cart/addItem
+
+1781173116349:::1 POST: /cart/addItem
+
+1781173127272:::1 POST: /cart/addItem
+
+1781173135980:::1 DELETE: /cart/empty-cart
+
+1781173149561:::1 GET: /cart/getCartItem
+
+1781173155432:::1 POST: /cart/addItem
+
+1781173179856:::1 POST: /cart/addItem
+
+1781173187392:::1 POST: /cart/addItem
+
+1781173517745:::1 GET: /cart/getCartItem
+
+1781173783571:::1 DELETE: /cart/empty-cart
+
+1781173791802:::1 POST: /cart/addItem
+
+1781173804576:::1 GET: /cart/getCartItem
+
+1781173960594:::1 DELETE: /cart/empty-cart
+
+1781173968335:::1 POST: /cart/addItem
+
+1781174006206:::1 POST: /cart/addItem
+
+1781174031184:::1 POST: /cart/addItem
+
+1781180971890:::1 GET: /auth
+
+1781181112856:::1 GET: /api-docs/
+
+1781181114558:::1 GET: /api-docs/swagger-ui.css
+
+1781181114560:::1 GET: /api-docs/swagger-ui-init.js
+
+1781181114562:::1 GET: /api-docs/swagger-ui-bundle.js
+
+1781181114563:::1 GET: /api-docs/swagger-ui-standalone-preset.js
+
+1781181750959:::1 GET: /auth
+
+1781181760328:::1 POST: /auth/register
+
+1781181798831:::1 POST: /auth/register

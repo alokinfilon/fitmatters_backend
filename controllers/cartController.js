@@ -2,7 +2,7 @@ const cartRepository = require('../repository/cartRepository');
 const productRepository = require('../repository/repository');
 
 exports.addItemToCart = async (req, res) => {
-    const { productId } = req.body; // e.g., 1
+    const { productId } = req.body; 
     const quantity = Number.parseInt(req.body.quantity, 10);
 
     if (!productId || isNaN(quantity)) {
@@ -13,14 +13,12 @@ exports.addItemToCart = async (req, res) => {
         const carts = await cartRepository.cart();
         let cart = Array.isArray(carts) ? carts[0] : carts; 
 
-        // FIX: Pass the raw numeric ID directly to your repository function
         const productDetails = await productRepository.createCartProduct(productId);
         
         if (!productDetails) {
             return res.status(404).json({ type: "Not Found", msg: "Product not found" });
         }
 
-        // Double check safety fallback to prevent NaN if price missing in DB
         const productPrice = Number(productDetails.price) || 0;
 
         if (cart) {

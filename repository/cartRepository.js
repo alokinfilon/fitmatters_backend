@@ -13,9 +13,10 @@ exports.addItem = async (payload) => {
         items: payload.products.map(product => ({
             productId: product.id,             
             quantity: 1,                       
-            price: product.price,              
-            total: product.price * 1           
+                         
+                     
         })),
+        
         subTotal: payload.products.reduce((acc, prod) => acc + prod.price, 0) 
     };
 
