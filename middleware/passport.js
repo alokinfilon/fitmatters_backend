@@ -2,7 +2,7 @@ const passport = require("passport");
 const PassportJWT = require("passport-jwt");
 const PassportHttp = require("passport-http");
 const config = require("../utils/config");
-const User = require("../models/User");
+const User = require("../models/user");
 const helper = require("../utils/helper");
 
 const options = {
