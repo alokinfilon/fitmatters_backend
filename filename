@@ -110,3 +110,181 @@
 1781155433565:::1 POST: /auth/token/refresh
 
 1781155464980:::1 GET: /auth/whoami
+
+1781157519598:::1 POST: /product
+
+1781157678649:::1 POST: /files
+
+1781157741774:::1 POST: /cartProduct
+
+1781157754879:::1 GET: /cartProduct
+
+1781157836554:::1 GET: /cartProduct
+
+1781157912123:::1 GET: /product
+
+1781157936791:::1 GET: /product
+
+1781158079155:::1 GET: /product
+
+1781158098640:::1 GET: /product
+
+1781158246135:::1 GET: /product
+
+1781158276996:::1 GET: /product
+
+1781158313718:::1 GET: /product
+
+1781159746147:::1 GET: /product
+
+1781159957457:::1 GET: /product
+
+1781159992668:::1 GET: /product
+
+1781160073047:::1 GET: /product
+
+1781162286898:::1 GET: /product
+
+1781162297806:::1 GET: /cart
+
+1781162317809:::1 GET: /
+
+1781162346401:::1 GET: /addItem
+
+1781163738544:::1 GET: /cart/getCartItem
+
+1781163862038:::1 GET: /cart/getCartItem
+
+1781163900486:::1 POST: /cart/addItem
+
+1781164074703:::1 POST: /cart/addItem
+
+1781164188031:::1 POST: /cart/addItem
+
+1781164197033:::1 POST: /cart/addItem
+
+1781164232977:::1 POST: /addItem
+
+1781164290163:::1 POST: /cart/addItem
+
+1781164313124:::1 GET: /cart/getCartItem
+
+1781164464916:::1 POST: /cart/addItem
+
+1781164654046:::1 POST: /cart/addItem
+
+1781164677904:::1 GET: /cart/getCartItem
+
+1781166537281:::1 GET: /cart/getCartItem
+
+1781166569097:::1 GET: /cart/getCartItem
+
+1781166711467:::1 GET: /cart/getCartItem
+
+1781166726968:::1 GET: /cart/getCartItem
+
+1781166738784:::1 GET: /getCartItem
+
+1781166746424:::1 GET: /cart/getCartItem
+
+1781166820488:::1 GET: /cart/getCartItem
+
+1781166884334:::1 GET: /cart/getCartItem
+
+1781166901629:::1 POST: /cart/addItem
+
+1781166943688:::1 POST: /cart/addItem
+
+1781166970004:::1 POST: /cart/addItem
+
+1781166992454:::1 GET: /api-docs/
+
+1781166996236:::1 GET: /api-docs/swagger-ui-init.js
+
+1781166996238:::1 GET: /api-docs/swagger-ui.css
+
+1781166996239:::1 GET: /api-docs/swagger-ui-bundle.js
+
+1781166996240:::1 GET: /api-docs/swagger-ui-standalone-preset.js
+
+1781167059158:::1 POST: /cart/addItem
+
+1781167101542:::1 POST: /cart/addItem
+
+1781167219905:::1 POST: /cart/addItem
+
+1781167278972:::1 GET: /cart/getCartItem
+
+1781167309009:::1 POST: /cart/empty-cart
+
+1781167319959:::1 DELETE: /cart/empty-cart
+
+1781167335406:::1 DELETE: /cart/getCartItem
+
+1781167341389:::1 GET: /cart/getCartItem
+
+1781167450856:::1 GET: /cart/getCartItem
+
+1781167506347:::1 GET: /cart/getCartItem
+
+1781167546599:::1 GET: /cart/getCartItem
+
+1781167724615:::1 GET: /cart/getCartItem
+
+1781167834333:::1 GET: /cart/getCartItem
+
+1781167876183:::1 POST: /cart/addItem
+
+1781167923978:::1 POST: /cart/addItem
+
+1781167925675:::1 POST: /cart/addItem
+
+1781167972711:::1 GET: /cart/addItem
+
+1781167979165:::1 POST: /cart/addItem
+
+1781168055720:::1 POST: /cart/addItem
+
+1781168537388:::1 POST: /cart/addItem
+
+1781168667160:::1 POST: /cart/addItem
+
+1781168746094:::1 POST: /cart/addItem
+
+1781168892535:::1 POST: /cart/addItem
+
+1781168980855:::1 POST: /cart/addItem
+
+1781169033447:::1 POST: /cart/addItem
+
+1781169080593:::1 GET: /cart/getCartItem
+
+1781169160427:::1 POST: /cart/getCartItem
+
+1781169184164:::1 POST: /cart/addItem
+
+1781169190865:::1 POST: /cart/addItem
+
+1781169330639:::1 GET: /cart/getCartItem
+
+1781169368715:::1 POST: /cart/addItem
+
+1781169412526:::1 POST: /cart/addItem
+
+1781169536594:::1 POST: /cart/addItem
+
+1781169823455:::1 GET: /cart/getCartItem
+
+1781169856013:::1 POST: /cart/empty-cart
+
+1781169876608:::1 POST: /cart/empty-cart
+
+1781169887460:::1 POST: /cart/empty-cart
+
+1781169892062:::1 DELETE: /cart/empty-cart
+
+1781169903984:::1 GET: /cart/getCartItem
+
+1781169912214:::1 POST: /cart/addItem
+
+1781169919409:::1 GET: /cart/getCartItem

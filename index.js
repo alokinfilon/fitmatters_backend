@@ -9,7 +9,6 @@ const errorHandlerMiddleware = require("./middleware/errorHandler");
 
 const authRouter = require("./routes/auth");
 
-
 const app = express();
 const cors = require('cors');
 if (process.env.NODE_ENV !== 'production') {
@@ -20,7 +19,8 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./swagger');
 const { logReqRes } = require("./middleware");
 const { connectMongoDb } = require("./connection");
-    const productRoutes = require("./routes/productRoutes");
+const productRoutes = require("./routes/productRoutes");
+const cartRoutes = require('./routes/cartRoutes')
 
 const PORT = process.env.PORT || 3000;
 const MONGO_URI = process.env.MONGO_URI
@@ -35,6 +35,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(logReqRes("log.txt"));
 
+app.use("/cart", cartRoutes);
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use("/products", productRoutes);
