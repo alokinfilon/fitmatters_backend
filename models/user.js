@@ -1,5 +1,4 @@
 const  mongoose  =  require("mongoose");
-const {plugin} = require('@typegoose/typegoose')
 const uniqueValidator = require("mongoose-unique-validator").default;
 
 const userSchema = new mongoose.Schema(
