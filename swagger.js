@@ -11,18 +11,38 @@ const swaggerOptions = {
       version: '1.0.0',
       description: 'A basic Express API documented with Swagger',
     },
+    components: {
+      securitySchemes: {
+        basicAuth: {
+          type: "http",
+          scheme: "basic",
+        },
+        bearerAuth: {
+          type: "http",
+          scheme: "bearer",
+          bearerFormat: "JWT",
+        }
+      },
+    },
+    security: [
+      {
+        basicAuth: [],
+        bearerAuth: [],
+      },
+    ],
     servers: [
       {
         url: 'https://fitmatters-backend.onrender.com',
         description: 'Production Server (Render)',
       },
+      
       {
         url: `http://localhost:${PORT}`,
         description: 'LocalHost Server',
       },
     ],
   },
-  apis: [path.resolve(__dirname, './routes/user.js'),
+  apis: [path.resolve(__dirname, './routes/auth.js'),
     path.resolve(__dirname, './controllers/productController.js')
   ],  
 };

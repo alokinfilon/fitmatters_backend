@@ -13,14 +13,24 @@
 	"license": "ISC",
 	"type": "commonjs",
 	"dependencies": {
+		"@typegoose/typegoose": "^13.3.0",
+		"bcrypt": "^6.0.0",
 		"cors": "^2.8.6",
 		"dotenv": "^17.4.2",
 		"express": "^5.2.1",
+		"express-validator": "^7.3.2",
+		"jsonwebtoken": "^9.0.3",
 		"mongodb": "^7.2.0",
-		"mongoose": "^9.6.3",
+		"mongoose": "^9.7.0",
+		"mongoose-unique-validator": "^6.1.1",
+		"morgan": "^1.11.0",
+		"passport": "^0.7.0",
+		"passport-http": "^0.3.0",
+		"passport-jwt": "^4.0.1",
 		"react-router": "^7.17.0",
 		"swagger-jsdoc": "^6.3.0",
-		"swagger-ui-express": "^5.0.1"
+		"swagger-ui-express": "^5.0.1",
+		"uuid": "^14.0.0"
 	},
 	"devDependencies": {
 		"nodemon": "^3.1.14"
