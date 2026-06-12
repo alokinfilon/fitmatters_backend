@@ -384,3 +384,13 @@
 1781181760328:::1 POST: /auth/register
 
 1781181798831:::1 POST: /auth/register
+
+1781241130897:::1 GET: /api-docs/
+
+1781241130962:::1 GET: /api-docs/swagger-ui.css
+
+1781241130964:::1 GET: /api-docs/swagger-ui-bundle.js
+
+1781241130965:::1 GET: /api-docs/swagger-ui-standalone-preset.js
+
+1781241130966:::1 GET: /api-docs/swagger-ui-init.js
